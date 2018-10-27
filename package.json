@@ -1,0 +1,23 @@
+{
+  "name": "apposite",
+  "version": "0.0.1",
+  "description": "Conditionally compose document subsections",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agorischek/apposite.git"
+  },
+  "author": "Alex Gorischek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agorischek/apposite/issues"
+  },
+  "homepage": "https://github.com/agorischek/apposite#readme"
+}
