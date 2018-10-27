@@ -1,3 +1,5 @@
+<img alt="Apposite logo" src="img/logo.png" width="400px"/>
+
 # Apposite
 Conditionally compose document subsections
 
