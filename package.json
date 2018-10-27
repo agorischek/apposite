@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/agorischek/apposite/issues"
   },
-  "homepage": "https://github.com/agorischek/apposite#readme"
+  "homepage": "https://github.com/agorischek/apposite#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
