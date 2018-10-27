@@ -46,9 +46,7 @@ This section will only apply to targetB.
 This section will apply to targetA and targetB.
 ```
 
-```js
-apposite.render(input, "targetA")
-```
+`apposite.render(input, "targetA");`:
 ```md
 # Document Title
 Subsections marked with an asterisk will apply to all output targets.
@@ -58,9 +56,7 @@ This section will only apply to targetA.
 This section will apply to targetA and targetB.
 ```
 
-```js
-apposite.render(input, "targetB")
-```
+`apposite.render(input, "targetB");`:
 ```md
 # Document Title
 Subsections marked with an asterisk will apply to all output targets.
