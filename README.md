@@ -30,6 +30,7 @@ apposite.render(input, target, marker)
 ```
 
 ## Example
+`input`:
 ```md
 @@@ * @@@
 # Document Title
@@ -44,3 +45,26 @@ This section will only apply to targetB.
 @@@ targetA targetB @@@
 This section will apply to targetA and targetB.
 ```
+
+```js
+apposite.render(input, "targetA")
+```
+```md
+# Document Title
+Subsections marked with an asterisk will apply to all output targets.
+
+This section will only apply to targetA.
+
+This section will apply to targetA and targetB.
+```
+
+```js
+apposite.render(input, "targetB")
+```
+```md
+# Document Title
+Subsections marked with an asterisk will apply to all output targets.
+
+This section will only apply to targetB.
+
+This section will apply to targetA and targetB.
