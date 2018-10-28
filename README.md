@@ -1,4 +1,4 @@
-<img alt="Apposite logo" src="img/logo.png" width="200px"/>
+<img alt="Apposite logo" src="img/logo.png" height="200px"/>
 
 # Apposite
 _Conditionally compose document subsections._
