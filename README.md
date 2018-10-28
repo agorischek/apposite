@@ -3,6 +3,10 @@
 # Apposite
 _Conditionally compose document subsections._
 
+[![Build Status](https://img.shields.io/travis/agorischek/apposite.svg)](https://travis-ci.org/agorischek/apposite)
+[![Version](https://img.shields.io/npm/v/apposite.svg)](https://www.npmjs.com/package/apposite)
+[![License](https://img.shields.io/github/license/agorischek/apposite.svg)](https://github.com/agorischek/apposite/blob/master/LICENSE)
+
 ## Intro
 
 Apposite lets you build a source document into multiple output targets with subsets of the source content. It’s particularly useful with Markdown but works with any text content.
