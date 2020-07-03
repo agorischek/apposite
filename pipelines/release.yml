@@ -57,4 +57,3 @@ steps:
       workingDir: "$(System.ArtifactsDirectory)/unpacked/package"
       publishEndpoint: npm
     displayName: "Publish to npm"
-re
