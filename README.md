@@ -1,9 +1,10 @@
 <img alt="Apposite logo" src="img/logo.png" height="160px"/>
 
 # Apposite
+
 _Conditionally compose document subsections._
 
-[![Build Status](https://img.shields.io/travis/agorischek/apposite.svg)](https://travis-ci.org/agorischek/apposite)
+[![Build Status](https://dev.azure.com/agorischek/packages/_apis/build/status/Apposite/Apposite%20CI?branchName=master)](https://dev.azure.com/agorischek/packages/_build?definitionScope=%5CApposite)
 [![Version](https://img.shields.io/npm/v/apposite.svg)](https://www.npmjs.com/package/apposite)
 [![License](https://img.shields.io/github/license/agorischek/apposite.svg)](https://github.com/agorischek/apposite/blob/master/LICENSE)
 
@@ -24,20 +25,24 @@ apposite.render(input);
 If you specify a target, `render` will compose a document consisting of subsections that apply to that target and subsections that apply to all targets.
 
 ```js
-apposite.render(input, target)
+apposite.render(input, target);
 ```
 
 You can optionally specify a custom marker. The default marker is `@@@`.
 
 ```js
-apposite.render(input, target, marker)
+apposite.render(input, target, marker);
 ```
 
 ## Example
+
 `input`:
+
 ```md
-@@@ * @@@
+@@@ \* @@@
+
 # Document Title
+
 Subsections marked with an asterisk will apply to all output targets.
 
 @@@ targetA @@@
@@ -51,8 +56,10 @@ This section will apply to targetA and targetB.
 ```
 
 `apposite.render(input, "targetA");`:
+
 ```md
 # Document Title
+
 Subsections marked with an asterisk will apply to all output targets.
 
 This section will only apply to targetA.
@@ -61,10 +68,13 @@ This section will apply to targetA and targetB.
 ```
 
 `apposite.render(input, "targetB");`:
+
 ```md
 # Document Title
+
 Subsections marked with an asterisk will apply to all output targets.
 
 This section will only apply to targetB.
 
 This section will apply to targetA and targetB.
+```
