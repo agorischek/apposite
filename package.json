@@ -1,6 +1,6 @@
 {
   "name": "apposite",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Conditionally compose document subsections",
   "main": "lib/index.js",
   "directories": {
