@@ -22,7 +22,7 @@
   "homepage": "https://github.com/agorischek/apposite#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "mocha": "^8.1.2"
   },
   "dependencies": {
     "escape-string-regexp": "^4.0.0"
