@@ -1,6 +1,6 @@
 {
   "name": "apposite",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Conditionally compose document subsections",
   "main": "lib/index.js",
   "directories": {
@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "vitest run --globals"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,6 @@
   },
   "homepage": "https://github.com/agorischek/apposite#readme",
   "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^8.3.2"
-  },
-  "dependencies": {
-    "escape-string-regexp": "^4.0.0"
+    "vitest": "^4.1.5"
   }
 }

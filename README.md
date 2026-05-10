@@ -4,7 +4,7 @@
 
 _Conditionally compose document subsections._
 
-[![Build Status](https://dev.azure.com/agorischek/packages/_apis/build/status/Apposite/Apposite%20CI?branchName=master)](https://dev.azure.com/agorischek/packages/_build?definitionScope=%5CApposite)
+[![CI](https://github.com/agorischek/apposite/actions/workflows/ci.yml/badge.svg)](https://github.com/agorischek/apposite/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/npm/v/apposite.svg)](https://www.npmjs.com/package/apposite)
 [![License](https://img.shields.io/github/license/agorischek/apposite.svg)](https://github.com/agorischek/apposite/blob/master/LICENSE)
 
@@ -78,3 +78,7 @@ This section will only apply to targetB.
 
 This section will apply to targetA and targetB.
 ```
+
+## Publishing
+
+Releases are published by the [Publish Package](https://github.com/agorischek/apposite/actions/workflows/publish.yml) GitHub Actions workflow using npm Trusted Publishing.

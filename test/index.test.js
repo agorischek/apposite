@@ -1,6 +1,4 @@
-var mocha = require("mocha");
-var chai = require("chai");
-var assert = chai.assert;
+var assert = require("assert");
 
 var apposite = require("../lib/index.js");
 
